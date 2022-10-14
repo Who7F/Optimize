@@ -530,6 +530,10 @@ button {
     opacity: 1;
 }
 
+.footerlinks > li> a{
+	color: white!important;
+}
+
 a[data-lightbox] {
     position: relative;
     display: block;
@@ -705,8 +709,9 @@ p {
 }
 
 h2 {
-    font-size: 22px;
+    font-size: 20px;
     line-height: 1.4em;
+	font-family: "Open Sans";
 }
 
 h3 {
@@ -753,7 +758,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(35, 31, 32, 0.7);
+    background-color: rgba(35, 31, 0, 0.9);
     padding: 40px 40px 40px 40px;
 }
 
